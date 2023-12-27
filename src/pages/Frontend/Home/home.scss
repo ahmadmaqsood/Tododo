@@ -1,0 +1,45 @@
+.input-field {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    border-radius: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+
+}
+
+.input-field::placeholder {
+    color: white;
+
+}
+.input-field:hover {
+    background-color: #7a6c5d;
+    border: none;
+
+}
+
+.input-field:focus {
+    background-color: #7a6c5d;
+    border: none;
+}
+
+textarea {
+    background: transparent;
+    padding-left: 18px;
+    padding-top: 13px;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+textarea:hover {
+    background-color: #7a6c5d;
+    border: none;
+
+}
+
